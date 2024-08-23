@@ -1,0 +1,33 @@
+{
+  "GET /api": {
+    "description": "serves up a json representation of all the available endpoints of the api"
+  },
+  "GET /api/movies": {
+    "description": "serves an array of all movies",
+    "queries": [],
+    "exampleResponse": {
+      "moviesData": [
+        {
+          "title": "Gladiator",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "likes": 0,
+    "starringActors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Richard Harris"
+    ],
+    "director": "Ridley Scott",
+    "trailerURL": "https://www.youtube.com/watch?v=P5ieIbInFpg",
+    "genre": ["Action", "Adventure", "Drama"],
+    "length": "155 min",
+    "releaseYear": 2000,
+    "boxOffice": "$460.5 million",
+    "budget": "$103 million",
+    "productionCompany": "DreamWorks Pictures",
+    "imgURL": ""
+        }]
+    }
+  }
+}
